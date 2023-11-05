@@ -20,7 +20,7 @@ console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Hitesh")) //check whetehr element is present or not.
+console.log(Array.isArray("Hitesh")) //check whether it is array or not.
 console.log(Array.from("Hitesh"))
 console.log(Array.from({name: "hitesh"})) // interesting
 
