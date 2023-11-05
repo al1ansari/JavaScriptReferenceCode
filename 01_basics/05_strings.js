@@ -31,6 +31,7 @@ const url = "https://hitesh.com/hitesh%20choudhary" // browser dont understand s
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) //check whether the mentioned string(sundar) is present or not
+// in the url.
 
 console.log(gameName.split('-'));
