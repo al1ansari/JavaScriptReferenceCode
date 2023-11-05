@@ -22,7 +22,8 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh")) //check whether it is array or not.
 console.log(Array.from("Hitesh")) //convert it to array.
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.from({name: "hitesh"})) // interesting, cannot convert a key value pair 
+// into array. It will return an empty array.
 
 let score1 = 100
 let score2 = 200
