@@ -40,11 +40,12 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+function calculateCartPrice(val1, val2, ...num1){ //...num1: here ... is called as rest operator
+                                            //and also ... it is called spread operator depending upon the use case of it.
+    return num1                             //num1 will return an array with all the value in it because of rest operator.
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 2000)) val1 = 200, val2 = 400, num1 = [500, 2000]
 
 const user = {
     username: "hitesh",
