@@ -8,7 +8,8 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+// sayMyName() //It will execute but
+//sayMyName //It will give reference of the function.
 
 // function addTwoNumbers(number1, number2){
 
