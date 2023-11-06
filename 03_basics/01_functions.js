@@ -45,7 +45,7 @@ function calculateCartPrice(val1, val2, ...num1){ //...num1: here ... is called 
     return num1                             //num1 will return an array with all the value in it because of rest operator.
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000)) val1 = 200, val2 = 400, num1 = [500, 2000]
+// console.log(calculateCartPrice(200, 400, 500, 2000)) //val1 = 200, val2 = 400, num1 = [500, 2000]
 
 const user = {
     username: "hitesh",
