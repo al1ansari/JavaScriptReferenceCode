@@ -16,14 +16,14 @@ function sayMyName(){
 //     console.log(number1 + number2);
 // }
 
-function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2){ //here number 1 and number 2 are parameters.
 
     // let result = number1 + number2
     // return result
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
+const result = addTwoNumbers(3, 5)// Here 3 and 5 are arguments.
 
 // console.log("Result: ", result);
 
