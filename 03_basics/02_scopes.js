@@ -52,7 +52,8 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
+addTwo(5) //It will throw error because here function has been defined as expression and in
+const addTwo = function(num){ // case of expression you cannot access it before declaring it .
     return num + 2
 }
+//addTwo(5) // Now it will not throw an error.
