@@ -43,7 +43,8 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-
+// function can be defined in two ways
+//******************first****************************
 console.log(addone(5))
 
 function addone(num){
@@ -51,6 +52,7 @@ function addone(num){
 }
 
 
+//***************second also known as expression*****************************
 
 addTwo(5) //It will throw error because here function has been defined as expression and in
 const addTwo = function(num){ // case of expression you cannot access it before declaring it .
